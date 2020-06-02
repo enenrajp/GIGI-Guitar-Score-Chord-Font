@@ -1,0 +1,213 @@
+/*!
+ * GIGI Guitar Score Chord Font Pro 0.80 by @enenrajp - https://gggfont.com
+ * License - SIL Open Font License 1.1
+ */
+
+.ggg-1x {
+  font-size: 1em;
+}
+
+.ggg-2x {
+  font-size: 2em;
+}
+
+.ggg-3x {
+  font-size: 3em;
+}
+
+.ggg-4x {
+  font-size: 4em;
+}
+
+.ggg-5x {
+  font-size: 5em;
+}
+
+.ggg-6x {
+  font-size: 6em;
+}
+
+.ggg-7x {
+  font-size: 7em;
+}
+
+.ggg-8x {
+  font-size: 8em;
+}
+
+.ggg-9x {
+  font-size: 9em;
+}
+
+.ggg-10x {
+  font-size: 10em;
+}
+
+
+/* Chords */
+.ggg-C::before {
+  content: "\EC00";
+}
+
+.ggg-Cm::before {
+  content: "\EC01";
+}
+
+.ggg-Cs::before {
+  content: "\E00C";
+}
+
+.ggg-Csm::before {
+  content: "\E01C";
+}
+
+.ggg-D::before {
+  content: "\ED00";
+}
+
+.ggg-Dm::before {
+  content: "\ED01";
+}
+
+.ggg-Df::before {
+  content: "\E700";
+}
+
+.ggg-Dfm::before {
+  content: "\E701";
+}
+
+.ggg-Ds::before {
+  content: "\E00D";
+}
+
+.ggg-Dsm::before {
+  content: "\E01D";
+}
+
+.ggg-E::before {
+  content: "\EE00";
+}
+
+.ggg-Em::before {
+  content: "\EE01";
+}
+
+.ggg-Ef::before {
+  content: "\E00E";
+}
+
+.ggg-Efm::before {
+  content: "\E01E";
+}
+
+.ggg-F::before {
+  content: "\EF00";
+}
+
+.ggg-Fm::before {
+  content: "\EF01";
+}
+
+.ggg-Fs::before {
+  content: "\E00F";
+}
+
+.ggg-Fsm::before {
+  content: "\E01F";
+}
+
+.ggg-G::before {
+  content: "\E900";
+}
+
+.ggg-Gm::before {
+  content: "\E901";
+}
+
+.ggg-Gf::before {
+  content: "\E500";
+}
+
+.ggg-Gfm::before {
+  content: "\E501";
+}
+
+.ggg-Gs::before {
+  content: "\E009";
+}
+
+.ggg-Gsm::before {
+  content: "\E019";
+}
+
+.ggg-A::before {
+  content: "\EA00";
+}
+
+.ggg-Am::before {
+  content: "\EA01";
+}
+
+.ggg-Af::before {
+  content: "\E600";
+}
+
+.ggg-Afm::before {
+  content: "\E601";
+}
+
+.ggg-As::before {
+  content: "\E00A";
+}
+
+.ggg-Asm::before {
+  content: "\E01A";
+}
+
+.ggg-B::before {
+  content: "\EB00";
+}
+
+.ggg-Bm::before {
+  content: "\EB01";
+}
+
+.ggg-Bf::before {
+  content: "\E00B";
+}
+
+.ggg-Bfm::before {
+  content: "\E01B";
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "GIGI Guitar Score Chord";
+
+  font-display: block;
+  src: url("./../../fonts/free/GIGIGuitarScore-Chord.eot");
+  src: url("./../../fonts/free/GIGIGuitarScore-Chord.eot?#iefix") format("embedded-opentype"),
+  url("./../../fonts/free/GIGIGuitarScore-Chord.woff2") format("woff2"),
+  url("./../../fonts/free/GIGIGuitarScore-Chord.woff") format("woff"),
+  url("./../../fonts/free/GIGIGuitarScore-Chord.ttf") format("truetype"),
+  url("./../../fonts/free/GIGIGuitarScore-Chord.svg") format("svg");
+}
+
+.ggg {
+  font-family: "GIGI Guitar Score Chord";
+  font-feature-settings: "dlig" 1;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  font-style: normal;
+}
